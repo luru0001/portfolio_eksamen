@@ -112,7 +112,7 @@ textarea:focus {
 
 /* ------------- Ipad størrelse ------------- */
 
-@media (min-width: 800px) {
+@media (min-width: 600px) {
   .grid_6-1 img {
     max-width: 500px;
     width: 100%;
@@ -142,7 +142,7 @@ textarea:focus {
 
 /* ------------- Desktop størrelse ------------- */
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .grid_6-1,
   .grid_6-2,
   .grid_6-3 {
@@ -187,34 +187,33 @@ textarea:focus {
     width: 100%;
     padding: 4rem 5rem;
   }
-  @media (min-width: 1024px) {
-    .contact-box h2 {
-      font-size: 2.4rem;
-      margin-bottom: 1rem;
-    }
 
-    .contact-box p {
-      font-size: 1.4rem;
-      line-height: 1.6;
-    }
+  .contact-box h2 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
 
-    .contact-box label {
-      font-size: 1.2rem;
-    }
+  .contact-box p {
+    font-size: 3rem;
+    line-height: 1.6;
+  }
 
-    .contact-box input,
-    .contact-box textarea {
-      font-size: 1.2rem;
-      padding: 1rem 1.2rem;
-    }
+  .contact-box label {
+    font-size: 3rem;
+  }
 
-    .contact-box button {
-      font-size: 1.3rem;
-      padding: 0.8rem 2rem;
-    }
+  .contact-box input,
+  .contact-box textarea {
+    font-size: 3rem;
+    padding: 1rem 1.2rem;
+  }
 
-    .error {
-      font-size: 1rem;
-    }
+  .contact-box button {
+    font-size: 3rem;
+    padding: 0.8rem 2rem;
+  }
+
+  .error {
+    font-size: 3rem;
   }
 }
