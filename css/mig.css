@@ -165,7 +165,7 @@ textarea:focus {
   .grid_6-2 {
     grid-template-columns: repeat(3, minmax(0, 650px));
     justify-content: center;
-    gap: 4rem;
+    gap: 10rem;
   }
 
   .grid_6-2 .text-box {
@@ -183,6 +183,6 @@ textarea:focus {
   }
 
   .contact-box {
-    max-width: 1000px;
+    max-width: 400px;
   }
 }
