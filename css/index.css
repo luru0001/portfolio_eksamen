@@ -32,7 +32,7 @@ body.no-scroll {
 
 @media (min-width: 1024px) {
   .hero h1 {
-    font-size: 70rem;
+    font-size: 7rem;
     letter-spacing: 0.25em;
   }
   .hero-link:hover h1 {
