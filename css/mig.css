@@ -199,21 +199,21 @@ textarea:focus {
   }
 
   .contact-box label {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .contact-box input,
   .contact-box textarea {
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 1rem 1.2rem;
   }
 
   .contact-box button {
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 0.8rem 2rem;
   }
 
   .error {
-    font-size: 3rem;
+    font-size: 1rem;
   }
 }
