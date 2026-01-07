@@ -1,0 +1,46 @@
+/* ------------- HERO billede ------------- */
+body.no-scroll {
+  height: 100vh;
+  overflow: hidden;
+}
+.hero {
+  height: 100vh;
+  background-image: url("../content/svg/hero2.svg"); /* BILLEDE */
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+}
+.hero h1 {
+  position: relative;
+  color: var(--color-text-primary);
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 15rem;
+}
+.hero-link {
+  text-decoration: none;
+}
+/* ------------- Ipad størrelse ------------- */
+
+@media (min-width: 600px) {
+  .hero h1 {
+    font-size: 6rem;
+  }
+}
+
+/* ------------- Desktop størrelse ------------- */
+
+@media (min-width: 1024px) {
+  .hero h1 {
+    font-size: 7rem;
+    letter-spacing: 0.25em;
+  }
+  .hero-link:hover h1 {
+    transform: scale(1.05);
+  }
+
+  .home-hero h1 {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,156 @@
+:root {
+  /* Farver */
+  --color-header: #bed9f4;
+  --light-blue: #bfe2f5;
+  --light-blue2: #e3f1f8;
+  --dark-blue: #4759a9;
+  --middle-blue2: rgb(86, 136, 189);
+  --color-beige: rgb(253, 252, 249);
+  --color-text-primary: #13598b;
+  --color-text-secondary: #bed9f4;
+
+  /* Fonte */
+  --font-heading: "Sigmar One", serif; /* h1 */
+  --font-prose: "Patrick Hand"; /* p + h2 */
+}
+
+/* ------------- Grundopsætning ------------- */
+
+body {
+  font-family: var(--font-prose);
+  color: var(--color-text-primary);
+  font-weight: 400;
+  line-height: 1.6;
+}
+.main-content {
+  padding: 1.3rem 1.5rem 2rem;
+}
+
+@media (min-width: 600px) {
+  .main-content {
+    padding: 2rem 3rem 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-content {
+    padding: 3rem 3.8rem 3rem;
+  }
+}
+
+/* ------------- Font ------------- */
+
+h1,
+.heading {
+  font-family: var(--font-heading);
+  color: var(--color-text-primary);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  font-size: 1.8rem;
+}
+
+h2,
+.underoverskrift {
+  font-family: var(--font-prose);
+  color: var(--color-text-primary);
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+p,
+.prose {
+  font-family: var(--font-prose);
+  color: var(--color-text-primary);
+  font-weight: 400;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+@media (min-width: 600px) {
+  h1,
+  .heading {
+    font-size: 3rem;
+    letter-spacing: 0.03em;
+  }
+  h2,
+  .underoverskrift {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  p,
+  .prose {
+    font-size: 1.3rem;
+    line-height: 1.9;
+    font-weight: 550;
+  }
+}
+/* ------------- Desktop størrelse ------------- */
+
+@media (min-width: 1024px) {
+  h1,
+  .heading {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.03rem;
+  }
+  h2,
+  .underoverskrift {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+  p,
+  .prose {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    font-weight: 400;
+  }
+}
+/* ------------- Ctabtn - knapper ------------- */
+.ctabtn-1 {
+  display: inline-block;
+  padding: 0.2rem 0.8rem;
+  background-color: var(--color-text-secondary);
+  color: var(--color-text-primary);
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 0.7rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+.ctabtn-2 {
+  display: inline-block;
+  padding: 0.2rem 0.8rem;
+  background-color: var(--color-text-secondary);
+  color: var(--color-text-primary);
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 0.7rem;
+  margin-top: 0.7rem;
+}
+
+.ctabtn-1:hover {
+  background-color: var(--light-blue2);
+}
+.ctabtn-2:hover {
+  background-color: var(--light-blue2);
+}
+/* ------------- Ipad størrelse ------------- */
+@media (min-width: 600px) {
+  .ctabtn-1 {
+    font-size: 1.3rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+  .ctabtn-2 {
+    font-size: 1.3rem;
+  }
+}
+/* ------------- Desktop størrelse ------------- */
+@media (min-width: 1024px) {
+  .ctabtn-1 {
+    font-size: 1.3rem;
+    margin-bottom: 0.1rem;
+  }
+  .ctabtn-2 {
+    font-size: 1.3rem;
+  }
+}

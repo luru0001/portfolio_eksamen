@@ -1,0 +1,141 @@
+/* ------------- HEADER / MENU ------------- */
+.header {
+  background-color: var(--color-header);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  position: relative;
+  z-index: 10;
+}
+
+.header2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+/* --- LUA "logo" --- */
+.logo img {
+  height: 40px;
+  width: auto;
+}
+/* --- Navigation --- */
+.nav1 {
+  display: flex;
+  gap: 0.75rem;
+  margin-right: 1rem;
+}
+.nav1 a {
+  font-family: var(--font-prose);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  text-decoration: none;
+}
+
+.nav1 a:hover {
+  text-decoration: underline;
+}
+/* ------------- Ipad størrelse ------------- */
+
+@media (min-width: 600px) {
+  .header2 {
+    padding: 1.5rem 2rem;
+  }
+
+  .logo img {
+    height: 56px;
+  }
+
+  .nav1 {
+    gap: 1.5rem;
+    margin-right: 1.25rem;
+  }
+
+  .nav1 a {
+    font-size: 1.5rem;
+  }
+}
+/* ------------- Desktop størrelse ------------- */
+
+@media (min-width: 1024px) {
+  .header2 {
+    padding: 1rem 5rem;
+  }
+
+  .logo img {
+    height: 90px;
+  }
+
+  .nav1 {
+    gap: 2.5rem;
+  }
+
+  .nav1 a {
+    font-size: 1.8rem;
+  }
+}
+/* -------------------------------- FOOTER -------------------------------- */
+.footer-layout {
+  background-color: var(--color-header);
+  width: 100%;
+
+  padding: 3rem 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+
+  text-align: center;
+
+  box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.footer-img img {
+  width: 90px;
+  height: auto;
+  display: block;
+}
+
+.footer-content h2 {
+  margin-bottom: 0.3rem;
+}
+
+.footer-content p {
+  margin-bottom: 0.6rem;
+  line-height: 1.4;
+}
+
+/* ------------- Ipad størrelse ------------- */
+
+@media (min-width: 600px) {
+  .footer-layout {
+    padding: 4rem 3rem;
+  }
+
+  .footer-img img {
+    width: 110px;
+  }
+}
+
+/* ------------- Desktop størrelse ------------- */
+
+@media (min-width: 1024px) {
+  .footer-layout {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+
+    padding: 4rem 6rem;
+  }
+
+  .footer-content {
+    margin-right: 35rem;
+  }
+
+  .footer-img img {
+    width: 150px;
+    margin-left: 35rem;
+  }
+}

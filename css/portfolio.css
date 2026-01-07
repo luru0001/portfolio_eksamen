@@ -1,0 +1,101 @@
+body {
+  background-color: var(--light-blue2);
+}
+/* ------------- Øverst ------------- */
+.portfolio-header {
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.portfolio-intro {
+  max-width: 22rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ------------- Portfolio grid  ------------- */
+.grid_2-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+  margin-bottom: 5rem;
+}
+/* ------------- Portfolio colonner  ------------- */
+
+/* ------------- Projekt boksene------------- */
+.project-img {
+  background-color: var(--middle-blue2);
+  height: 320px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  border-radius: 9px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+.project-img img {
+  height: 240px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 5px;
+}
+.project-title {
+  color: var(--color-beige);
+  font-size: 1.1rem;
+}
+.project-link {
+  text-decoration: none;
+}
+
+/* ------------- Ipad størrelse ------------- */
+
+@media (min-width: 600px) {
+  .grid_2-1 {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+  }
+  .portfolio-intro {
+    font-size: 1.5rem;
+    max-width: 40rem;
+  }
+
+  .project-title {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+  }
+}
+/* ------------- Desktop størrelse ------------- */
+
+@media (min-width: 1024px) {
+  .grid_2-1 {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2.5rem;
+    row-gap: 4rem;
+    margin-top: 3rem;
+  }
+  .portfolio-header .h1 {
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .portfolio-intro {
+    font-size: 1.8rem;
+    max-width: 45rem;
+  }
+
+  .project-img {
+    height: 360px;
+    padding: 1.25rem;
+  }
+
+  .project-img img {
+    height: 270px;
+  }
+  .project-title {
+    font-size: 1.4rem;
+  }
+}

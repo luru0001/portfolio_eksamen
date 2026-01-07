@@ -1,0 +1,188 @@
+/* ---------- Alle --------- */
+.grid_6-1 h1,
+.grid_6-1 p,
+.grid_6-1 h2,
+.grid_6-2 h2,
+.grid_6-3 h2 {
+  text-align: center;
+}
+/* ---------- Sektion 1 - Om mig ---------- */
+.grid_6-1 {
+  background-color: var(--light-blue2);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 1.3rem 1.5rem 2rem;
+}
+.grid_6-1 img {
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* ---------- Sektion 2 - udannelse og erhvervsefering ---------- */
+
+.grid_6-2 {
+  background-color: var(--middle-blue2);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 1.3rem 1.5rem 2rem;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+.grid_6-2 .text-box {
+  background-color: var(--light-blue);
+  padding: 2rem 2rem 2.2rem;
+  border-radius: 1.2rem;
+  max-width: 520px;
+  margin: 0 auto;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+.grid_6-2 p {
+  margin-bottom: 1rem;
+}
+.grid_6-2 p.bold {
+  font-weight: 600;
+  margin-bottom: 0.1rem;
+}
+
+/* ---------- Sektion 3 - kontakt ---------- */
+
+.grid_6-3 {
+  background-color: var(--light-blue);
+  padding: 1.3rem 1.5rem 2rem;
+}
+
+.contact-box {
+  max-width: 520px;
+  margin: 0 auto;
+  background-color: var(--light-blue2);
+  padding: 2rem 2rem 2.2rem;
+  border-radius: 1.2rem;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  text-align: center;
+}
+
+.contact-box p {
+  margin-bottom: 1.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.form-data {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+input,
+textarea {
+  padding: 0.6rem 0.7rem;
+  border-radius: 6px;
+  border: 2px solid transparent;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #1d1d1d;
+}
+.error {
+  display: none;
+  color: #b30000;
+  font-size: 0.85rem;
+  margin-top: 0.2rem;
+}
+
+.error-border {
+  border-color: #b30000;
+}
+
+/* ------------- Ipad størrelse ------------- */
+
+@media (min-width: 600px) {
+  .grid_6-1 img {
+    max-width: 500px;
+    width: 100%;
+  }
+  .grid_6-1 h2,
+  .grid_6-2 h2,
+  .grid_6-3 h2 {
+    font-weight: 1000;
+  }
+  .grid_6-1,
+  .grid_6-2,
+  .grid_6-3 {
+    padding: 2rem 3rem 2rem;
+  }
+  .grid_6-2 {
+    padding: 2rem 3rem 2rem;
+    gap: 3rem;
+  }
+  .grid_6-3 {
+    padding: 2rem 3rem 2rem;
+  }
+
+  .contact-box {
+    padding: 2.5rem 3rem 2.8rem;
+  }
+}
+
+/* ------------- Desktop størrelse ------------- */
+
+@media (min-width: 1024px) {
+  .grid_6-1,
+  .grid_6-2,
+  .grid_6-3 {
+    padding: 3rem 3.8rem 3rem;
+  }
+  .grid_6-1 {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 4rem;
+  }
+  .grid_6-1 img {
+    max-width: 700px;
+    width: 100%;
+  }
+  .grid_6-1 h1,
+  .grid_6-1 h2,
+  .grid_6-1 p {
+    text-align: left;
+  }
+  .grid_6-2 {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 420px));
+    justify-content: center;
+    gap: 3.5rem;
+    padding: 3rem 3.8rem 3rem;
+  }
+
+  .grid_6-2 .text-box {
+    margin: 0;
+  }
+
+  .grid_6-2 h2,
+  .grid_6-2 p {
+    text-align: left;
+  }
+  .grid_6-3 {
+    padding: 3rem 3.8rem 3rem;
+  }
+
+  .contact-box {
+    max-width: 640px;
+  }
+}

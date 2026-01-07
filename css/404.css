@@ -1,0 +1,87 @@
+/* ------------- 404 ------------- */
+
+.site-404 {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.box-404 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.code-404 {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-heading);
+  font-size: 6rem;
+}
+
+/* 4-4 */
+.code-404 span {
+  color: var(--color-text-primary);
+}
+
+/* SVG */
+.svg-404 {
+  width: 90px;
+  height: auto;
+}
+.box-404 h2 {
+  margin-top: 0.2rem;
+  margin-bottom: 0;
+}
+
+.box-404 p {
+  margin-top: 0.2rem;
+  max-width: 26rem;
+}
+
+/* Knap */
+.ctabtn-404 {
+  display: inline-block;
+  padding: 0.3rem 0.9rem;
+  background-color: var(--color-text-secondary);
+  color: var(--color-text-primary);
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 0.75rem;
+  margin-top: 0.6rem;
+}
+
+/* ------------- Ipad størrelse ------------- */
+
+@media (min-width: 600px) {
+  .code-404 {
+    font-size: 9rem;
+  }
+
+  .svg-404 {
+    width: 140px;
+  }
+  .ctabtn-404 {
+    font-size: 1.2rem;
+  }
+}
+
+/* ------------- Desktop størrelse ------------- */
+
+@media (min-width: 1024px) {
+  .code-404 {
+    font-size: 15rem;
+  }
+
+  .svg-404 {
+    width: 180px;
+  }
+
+  .box-404 p {
+    font-size: 1.5rem;
+  }
+  .ctabtn-404 {
+    font-size: 1.5rem;
+  }
+}
