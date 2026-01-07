@@ -32,12 +32,13 @@
 }
 .box-404 h2 {
   margin-top: 0.2rem;
-  margin-bottom: 0;
+  margin-bottom: 0.5rem;
 }
 
 .box-404 p {
   margin-top: 0.2rem;
-  max-width: 26rem;
+  max-width: 80rem;
+  margin-bottom: 1rem;
 }
 
 /* Knap */
