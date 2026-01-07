@@ -92,13 +92,13 @@ p,
     letter-spacing: 0.03rem;
   }
   h2,
-  .underoverskrift {
-    font-size: 3rem;
+  s .underoverskrift {
+    font-size: 4rem;
     margin-bottom: 0.5rem;
   }
   p,
   .prose {
-    font-size: 2rem;
+    font-size: 3rem;
     line-height: 1.6;
     font-weight: 400;
   }
@@ -146,10 +146,12 @@ p,
 /* ------------- Desktop størrelse ------------- */
 @media (min-width: 1024px) {
   .ctabtn-1 {
-    font-size: 2rem;
-    margin-bottom: 0.1rem;
+    font-size: 3rem;
+    margin-bottom: 1rem;
   }
   .ctabtn-2 {
-    font-size: 2rem;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
   }
 }
