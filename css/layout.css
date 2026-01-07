@@ -131,11 +131,11 @@
   }
 
   .footer-content {
-    margin-right: 35rem;
+    margin-right: 65rem;
   }
 
   .footer-img img {
-    width: 150px;
-    margin-left: 35rem;
+    width: 300px;
+    margin-left: 65rem;
   }
 }
