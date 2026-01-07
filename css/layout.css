@@ -63,7 +63,7 @@
   }
 
   .logo img {
-    height: 150px;
+    height: 180px;
   }
 
   .nav1 {
@@ -71,7 +71,7 @@
   }
 
   .nav1 a {
-    font-size: 1.8rem;
+    font-size: 5rem;
   }
 }
 /* -------------------------------- FOOTER -------------------------------- */
