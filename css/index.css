@@ -30,7 +30,7 @@ body.no-scroll {
 
 /* ------------- Desktop størrelse ------------- */
 
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .hero h1 {
     font-size: 7rem;
     letter-spacing: 0.25em;
