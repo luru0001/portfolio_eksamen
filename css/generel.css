@@ -85,6 +85,9 @@ p,
 /* ------------- Desktop størrelse ------------- */
 
 @media (min-width: 1024px) {
+  body {
+    background-color: red;
+  }
   h1,
   .heading {
     font-size: 5rem;
