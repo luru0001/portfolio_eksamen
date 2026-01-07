@@ -91,14 +91,14 @@
 }
 /* ------------- Desktop størrelse ------------- */
 
-@media (min-width: 1200px) {
+@media (min-width: 1200) {
   /* --- Projekt header1 (3 img) ---*/
   .project-header1 {
     padding: 4rem 2rem 3rem;
   }
   .grid_4-1 {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     max-width: 3000px;
     margin: 0 auto;
   }
