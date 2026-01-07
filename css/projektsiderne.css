@@ -109,7 +109,8 @@
   }
   /* --- Projekt header2 (1 img) --- */
   .grid_5-1 img {
-    transform: translateY(10px);
+    transform: translateY(5px);
+    margin-bottom: 2rem;
   }
   /* --- 2 kollonne sektioner  --- */
   .grid_4-2 {
