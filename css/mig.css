@@ -172,7 +172,8 @@ textarea:focus {
 
   .grid_6-2 .text-box {
     margin: 0;
-    width: 700px;
+    width: 1200px;
+    gap: 5rem;
   }
 
   .grid_6-2 h2,
