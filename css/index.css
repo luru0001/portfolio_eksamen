@@ -31,7 +31,7 @@ body.no-scroll {
 
 /* ------------- Desktop størrelse ------------- */
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .hero {
     height: 100vh;
     background-size: cover;
