@@ -99,14 +99,14 @@
   .grid_4-1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-    max-width: 2000px;
+    gap: 1rem;
+    max-width: 2500px;
     margin: 0 auto;
   }
 
   .grid_4-1 img {
     width: 100%;
-    aspect-ratio: 16 / 10;
+    aspect-ratio: 16 / 9;
     object-fit: cover;
   }
   /* --- Projekt header2 (1 img) --- */
