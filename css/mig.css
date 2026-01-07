@@ -183,9 +183,9 @@ textarea:focus {
   }
 
   .contact-box {
-    max-width: 1000px; /* 👈 GØR BOKSEN MEGET BREDDERE */
+    max-width: 1000px;
     width: 100%;
-    padding: 4rem 5rem; /* 👈 MERE LUFT INDENI */
+    padding: 4rem 5rem;
   }
   @media (min-width: 1024px) {
     .contact-box h2 {
