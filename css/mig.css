@@ -112,7 +112,7 @@ textarea:focus {
 
 /* ------------- Ipad størrelse ------------- */
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   .grid_6-1 img {
     max-width: 500px;
     width: 100%;
@@ -165,7 +165,7 @@ textarea:focus {
   .grid_6-2 {
     grid-template-columns: repeat(3, minmax(0, 850px));
     justify-content: center;
-    gap: 20rem;
+    gap: 15rem;
   }
 
   .grid_6-2 .text-box {
@@ -183,6 +183,38 @@ textarea:focus {
   }
 
   .contact-box {
-    max-width: 400px;
+    max-width: 1000px; /* 👈 GØR BOKSEN MEGET BREDDERE */
+    width: 100%;
+    padding: 4rem 5rem; /* 👈 MERE LUFT INDENI */
+  }
+  @media (min-width: 1024px) {
+    .contact-box h2 {
+      font-size: 2.4rem;
+      margin-bottom: 1rem;
+    }
+
+    .contact-box p {
+      font-size: 1.4rem;
+      line-height: 1.6;
+    }
+
+    .contact-box label {
+      font-size: 1.2rem;
+    }
+
+    .contact-box input,
+    .contact-box textarea {
+      font-size: 1.2rem;
+      padding: 1rem 1.2rem;
+    }
+
+    .contact-box button {
+      font-size: 1.3rem;
+      padding: 0.8rem 2rem;
+    }
+
+    .error {
+      font-size: 1rem;
+    }
   }
 }
