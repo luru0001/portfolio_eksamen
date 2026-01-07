@@ -12,7 +12,7 @@ body.no-scroll {
 }
 .hero h1 {
   position: relative;
-  color: red;
+  color: var(--color-text-primary);
   font-size: 3rem;
   text-align: center;
   padding-top: 15rem;
