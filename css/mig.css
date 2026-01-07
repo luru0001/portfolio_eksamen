@@ -164,10 +164,10 @@ textarea:focus {
   }
   .grid_6-2 {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 420px));
-    justify-content: center;
-    gap: 3.5rem;
-    padding: 3rem 3.8rem 3rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+    max-width: 1800px; /* 👈 styr hel bredde */
+    margin: 0 auto;
   }
 
   .grid_6-2 .text-box {
