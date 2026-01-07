@@ -15,9 +15,6 @@
 }
 
 /* ------------- Grundopsætning ------------- */
-html {
-  font-size: 100%;
-}
 body {
   font-family: var(--font-prose);
   color: var(--color-text-primary);

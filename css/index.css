@@ -34,6 +34,7 @@ body.no-scroll {
   .hero h1 {
     font-size: 7rem;
     letter-spacing: 0.25em;
+    color: red;
   }
   .hero-link:hover h1 {
     transform: scale(1.05);
