@@ -189,7 +189,7 @@ textarea:focus {
   }
 
   .contact-box h2 {
-    font-size: 4rem;
+    font-size: 6rem;
     margin-bottom: 1rem;
   }
 
@@ -214,6 +214,6 @@ textarea:focus {
   }
 
   .error {
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
 }
