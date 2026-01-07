@@ -163,9 +163,9 @@ textarea:focus {
     text-align: left;
   }
   .grid_6-2 {
-    grid-template-columns: repeat(3, minmax(0, 650px));
+    grid-template-columns: repeat(3, minmax(0, 850px));
     justify-content: center;
-    gap: 10rem;
+    gap: 20rem;
   }
 
   .grid_6-2 .text-box {
