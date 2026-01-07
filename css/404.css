@@ -69,19 +69,19 @@
 
 /* ------------- Desktop størrelse ------------- */
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .code-404 {
-    font-size: 15rem;
+    font-size: 30rem;
   }
 
   .svg-404 {
-    width: 180px;
+    width: 250px;
   }
 
   .box-404 p {
-    font-size: 1.5rem;
+    font-size: 5rem;
   }
   .ctabtn-404 {
-    font-size: 1.5rem;
+    font-size: 4rem;
   }
 }

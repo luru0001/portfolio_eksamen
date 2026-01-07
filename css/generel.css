@@ -31,7 +31,7 @@ body {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .main-content {
     padding: 3rem 3.8rem 3rem;
   }
@@ -144,7 +144,7 @@ p,
   }
 }
 /* ------------- Desktop størrelse ------------- */
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .ctabtn-1 {
     font-size: 2.7rem;
     margin-bottom: 4rem;

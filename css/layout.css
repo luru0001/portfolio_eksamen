@@ -57,7 +57,7 @@
 }
 /* ------------- Desktop størrelse ------------- */
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .header2 {
     padding: 1rem 5rem;
   }
@@ -120,7 +120,7 @@
 
 /* ------------- Desktop størrelse ------------- */
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .footer-layout {
     flex-direction: row;
     justify-content: space-between;
