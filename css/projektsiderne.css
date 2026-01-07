@@ -100,13 +100,12 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
-    max-width: 2500px;
+    max-width: 3000px;
     margin: 0 auto;
   }
-
   .grid_4-1 img {
     width: 100%;
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 16 / 8;
     object-fit: cover;
   }
   /* --- Projekt header2 (1 img) --- */

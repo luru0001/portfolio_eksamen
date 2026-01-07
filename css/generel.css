@@ -146,12 +146,14 @@ p,
 /* ------------- Desktop størrelse ------------- */
 @media (min-width: 1024px) {
   .ctabtn-1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
+    font-size: 2.7rem;
+    margin-bottom: 2rem;
+    border-radius: 7px;
   }
   .ctabtn-2 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
+    font-size: 2.7rem;
+    margin-bottom: 2rem;
     margin-top: 1rem;
+    border-radius: 7px;
   }
 }
