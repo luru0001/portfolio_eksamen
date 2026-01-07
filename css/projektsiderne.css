@@ -99,7 +99,6 @@
   .grid_4-1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
     max-width: 3000px;
     margin: 0 auto;
   }
