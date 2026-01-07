@@ -183,7 +183,7 @@ textarea:focus {
   }
 
   .contact-box {
-    max-width: 1000px;
+    max-width: 1500px;
     width: 100%;
     padding: 4rem 5rem;
   }
@@ -214,6 +214,6 @@ textarea:focus {
   }
 
   .error {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 }
