@@ -83,16 +83,16 @@ body {
 
   .portfolio-intro {
     font-size: 3rem;
-    max-width: 45rem;
+    max-width: 70rem;
   }
 
   .project-img {
-    height: 360px;
+    height: 520px;
     padding: 1.25rem;
   }
 
   .project-img img {
-    height: 270px;
+    height: 380px;
   }
   .project-title {
     font-size: 3rem;
